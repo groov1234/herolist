@@ -1,0 +1,27 @@
+.Heroes {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 200px;
+}
+
+.Hero-box {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Hero .Hero-name {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.Hero .Hero-attr {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.Hero .Hero-attack {
+  display: flex;
+  margin-bottom: 10px;
+}

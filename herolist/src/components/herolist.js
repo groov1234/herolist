@@ -27,7 +27,7 @@ class HeroList extends Component {
   render() {
     return (
       <div className="Heroes">
-        <div className="HeroCards">
+        <div className="Heroes">
           {this.state.heroes.map(heroes => {
             return <Heroes heroes={heroes} />;
           })}
